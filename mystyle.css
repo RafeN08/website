@@ -1,0 +1,48 @@
+:root {
+  --dark-green: #003525;
+  --lime-green: #D5E04E;
+  --black: #000000;
+  --grey: #AAB0B5;
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: var(--grey);
+  background: var(--dark-green);
+}
+
+h1 {
+  background: var(--dark-green);
+  color: var(--lime-green);
+  padding: 20px;
+  text-align: center;
+  border-bottom: 5px solid var(--lime-green);
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background: var(--grey);
+  color: var(--dark-green);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px var(--black);
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  color: var(--dark-green);
+  margin-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: var(--dark-green);
+  color: var(--grey);
+  border-top: 5px solid var(--lime-green);
+}
